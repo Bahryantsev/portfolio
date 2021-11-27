@@ -1,0 +1,19 @@
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    flex-grow: 1;
+}
+.header{
+    margin: 0 auto 20px auto;
+    font-size: 40px;
+    color: rgb(223, 135, 149);
+}
+.lorem{
+    max-width: 40%;
+    margin-bottom: 30px;
+}

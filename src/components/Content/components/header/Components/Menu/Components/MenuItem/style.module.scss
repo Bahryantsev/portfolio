@@ -1,0 +1,15 @@
+.MenuItem{
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 20px;
+    opacity: 0.85;
+}
+.link{
+    color:#fff;
+    text-decoration: none;
+}
+.MenuItem:hover{
+    cursor: pointer;
+    opacity: 1;
+
+}
