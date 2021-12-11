@@ -1,0 +1,28 @@
+.wrapper{
+    height: 500px;
+    width: 780px;
+    position: relative;
+    padding: 1%;
+    background-image: url(../../../../../../assets/window.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.header{
+    padding-left:3%;
+    font-size: 20px;
+}
+.text{
+    color: #000;
+    position: absolute;
+    top:15%;
+    left: 3%;
+}
+.link{
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    top: 12px;
+    right: 15px;
+}

@@ -1,8 +1,8 @@
 import React from "react";
-import BackgroundImage from "components/BackgroundImage";
+
 import backround from 'assets/Main.jpg'
 import styles from './style.module.scss'
-import ArrowDown from "./ArrowDown";
+
 
 const BigImg = ()=>{
     return(
@@ -13,10 +13,7 @@ const BigImg = ()=>{
             </h1>
             <span className = {styles.text}>Frontend React developer</span>
             </div>
-            <BackgroundImage
-             src = {backround}
-             width = '100%'
-             />
+            
         </div>
         
     )

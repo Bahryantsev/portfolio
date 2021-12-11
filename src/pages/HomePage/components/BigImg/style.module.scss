@@ -2,6 +2,7 @@
     margin-bottom: 20px;
 }
 .textwrapper{
+    z-index: 1;
     position: absolute;
     top: 45%;
     left: 10%;
@@ -11,10 +12,29 @@
     width: 100%;
     height: 100vh;
     overflow: hidden;
+    background-image: url(../../../../assets/Main.jpg);
+    background-position: center;
+    background-size: cover;
 }
-.arrow{
-    position: absolute;
-    bottom: 400px;
-    left: 20px;
 
+
+
+@media(max-width:1023px){
+  .container{
+      flex-grow: 1;
+  }
+
+}
+@media(max-width:767px){
+    .textwrapper{
+        top:40%;
+        left:5%;
+    }
+  .header{
+      font-size: 20px;
+      margin-bottom: 7px;
+  }
+  .text{
+      font-size: 15px;
+  }
 }

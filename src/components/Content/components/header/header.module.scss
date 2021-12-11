@@ -14,4 +14,9 @@
 .header2{
     background-color: transparent;
 }
+@media(max-width:767px){
+    .header{
+        padding: 30px 20px 30px 30px;
 
+    }
+}

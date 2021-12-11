@@ -1,18 +1,18 @@
 
 .wrapper{
     display: flex;
+    display: inline-block;
     flex-direction: column;
-    padding: 60px;
-    align-items: center;
+    justify-content: flex-start;
     color: #fff;
 }
 .header{
-    margin: 0 auto 20px auto;
+    
     font-size: 40px;
     color: rgb(223, 135, 149);
 }
-.lorem{
-    width: 40%;
+.text{
+   
     margin-bottom: 30px;
 }
 
@@ -21,17 +21,12 @@
         padding: 20px;
         height: 100%;
     }
-    .lorem{
-        width: 60%;
 
-    }
 }
 @media(max-width:767px){
     .wrapper{
         padding: 10px;
         
     }
-    .lorem{
-        width: 90%;
-    }
+
 }
