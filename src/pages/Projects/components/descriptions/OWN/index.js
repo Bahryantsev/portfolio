@@ -6,7 +6,7 @@ const Own = ()=>{
         <Descriptions
         header = 'My own website'
         text = 'You`re now using it. It was created using React for my and your plasure'
-        
+        href = 'https://bahryantsev.github.io'
         />
     )
 }

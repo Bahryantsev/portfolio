@@ -13,7 +13,7 @@ const Project = ({...props})=>{
             width = '80px'
             height = '80px'
             />
-            <h2>{props.text}</h2>
+            <h2 className={styles.header}>{props.text}</h2>
             
         </div>
     )

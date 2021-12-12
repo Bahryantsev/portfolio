@@ -9,7 +9,7 @@ const Axit = ()=>{
     return(
         <Descriptions
         header = 'AXIT landing webpage'
-        text = 'This is my first website I made by myself with figma and HTML5, CSS3'
+        text = 'This is my first website I made by myself with figma and HTML5, CSS3. So you can take a look at my first steps'
         href = 'https://bahryantsev.github.io/axit/'
         />
     )

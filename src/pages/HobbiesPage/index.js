@@ -18,8 +18,8 @@ const Hobbies = () => {
                     text='Sometimes I think that my brain needs a warm up and open some chess sites and play some blitz online tourtaments. Chess make me feel calm but to feel alive. '
                 />
                 <Hobby
-                    headertext='Also I am a happy father of a dog'
-                    text='Yep, I have a dog. Her name is Asya. Just look at her ;D'
+                    headertext='Also... '
+                    text='I am a happy father of a dog. Yep, I have a dog. Her name is Asya. Just look at her ;D'
                 />
             </div>
             <div className={styles.asya}>

@@ -8,6 +8,7 @@ import Projects from "pages/Projects";
 import Axit from "../../../../pages/Projects/components/descriptions/AXIT";
 import Whales from "../../../../pages/Projects/components/descriptions/WHALES";
 import Own from "../../../../pages/Projects/components/descriptions/OWN";
+import Womanup from "../../../../pages/Projects/components/descriptions/womanup";
 
 
 
@@ -24,6 +25,7 @@ export default class Content extends React.Component {
                         <Route path='axit' element={<Axit/>} />
                         <Route path='whales' element={<Whales/>} />
                         <Route path = 'own' element = {<Own/>}/>
+                        <Route path = 'womanup' element = {<Womanup/>}/>
                     </Route>
                 </Routes>
             </div>

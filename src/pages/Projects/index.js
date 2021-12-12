@@ -6,25 +6,34 @@ import Descriptions from "./components/descriptions/components/DescriptionsItem"
 
 
 const Projects = () => {
+    const getClass = (state) =>{
+        return styles.link + (state.isActive ? ` ${styles.active}`:'')
+    }
     return (
         <div className={styles.wrapper}>
             <div className = {styles.folders}>
-                <NavLink to='axit' className={styles.link}>
+                <NavLink to='axit' className={getClass}>
                 <Project
                     alt='Axit design website'
                     text='Axit'
                 />
                 </NavLink >
-                <NavLink to='whales' className={styles.link}>
+                <NavLink to='whales' className={getClass}>
                 <Project
                     alt='Whales design website'
                     text='Whales'
                 />
                 </NavLink>
-                <NavLink to = 'own' className={styles.link}>
+                <NavLink to='womanup' className={ getClass}>
                 <Project
-                    alt='My own website'
-                    text = 'My own website'
+                    alt='womanup'
+                    text='womanup'
+                />
+                </NavLink>
+                <NavLink to = 'own' className={getClass}>
+                <Project
+                    alt= 'Personal site'
+                    text = 'Personal website'
                 />
                 </NavLink>
             </div>
